@@ -41,13 +41,18 @@ if __name__ == "__main__":
     cap.set(3, 640)
     cap.set(4, 480)
 
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+    out = cv2.VideoWriter('real_time_output_video.mp4', fourcc, 25, (640, 480))
+
     while True:
         success, img = cap.read()
         result, objectInfo = getObjects(img, 0.45, 0.2)
         cv2.imshow("Output", img)
+        out.write(img)
         key = cv2.waitKey(1)
         if key == ord('q'):
             break
 
     cap.release()
+    out.release()
     cv2.destroyAllWindows()
