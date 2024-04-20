@@ -2,7 +2,9 @@
 
 Welcome to Real-time Object Detection! This project utilizes the power of machine learning to detect objects in real-time using a pre-trained SSD MobileNet V3 model. With this project, you can easily identify various objects, such as people, vehicles, animals, and more, directly from your webcam feed.
 
-![Crowd](gifs/crowd.gif)
+<p align="center">
+  <img src="gifs/crowd.gif" alt="Crowd">
+</p>
 
 ## How It Works
 
@@ -12,7 +14,9 @@ Welcome to Real-time Object Detection! This project utilizes the power of machin
 
 3. **Display Results**: Detected objects are highlighted with bounding boxes and labeled with their corresponding class names in real-time, providing instant feedback.
 
-![Zebra](gifs/zebra.gif)
+<p align="center">
+  <img src="gifs/zebra.gif" alt="Zebra">
+</p>
 
 ## Getting Started
 
@@ -38,7 +42,9 @@ python real_time_object_detection.py
 
 4. **Enjoy Real-time Object Detection**: Once the script is running, your webcam will activate, and you'll see objects being detected in real-time on your screen. Press 'q' to quit the application and you will find a video recording of your detection session saved in the project directory. Happy detecting! 🎥🔍
 
-![Plane](gifs/plane.gif)
+<p align="center">
+  <img src="gifs/plane.gif" alt="Plane">
+</p>
 
 ## Requirements
 
@@ -49,4 +55,6 @@ python real_time_object_detection.py
 
 Contributions are welcome! Fork the repository, make changes in a new branch, and submit a pull request (PR). Provide a clear description of your changes. PRs will be reviewed by maintainers before merging. Feel free to [open an issue](https://github.com/KelvinPuyam/Real-time-object-detection/issues) for suggestions or questions. Thank you for contributing! 🚀
 
-![Interview](gifs/interview.gif)
+<p align="center">
+  <img src="gifs/interview.gif" alt="Interview">
+</p>
