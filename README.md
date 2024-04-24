@@ -48,8 +48,8 @@ python real_time_object_detection.py
 
 ## Requirements
 
-- Python 3.x
-- OpenCV (cv2)
+- Python 3
+- OpenCV
 
 ## Contributions
 
