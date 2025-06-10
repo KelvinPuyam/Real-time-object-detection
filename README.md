@@ -1,6 +1,6 @@
 # Real-time Object Detection
 
-Welcome to Real-time Object Detection! This project utilizes the power of machine learning to detect objects in real-time using a pre-trained SSD MobileNet V3 model. With this project, you can easily identify various objects, such as people, vehicles, animals, and more, directly from your webcam feed.
+Welcome to Real-time Object Detection! This project utilizes the power of machine learning to detect objects in real-time using SSD MobileNet V3. With this project, you can easily identify various objects, such as people, vehicles, animals, and more, directly from your webcam feed.
 
 <p align="center">
   <img src="gifs/crowd.gif" alt="Crowd">
